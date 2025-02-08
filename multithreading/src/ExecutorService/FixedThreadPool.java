@@ -26,3 +26,7 @@ class Work implements Runnable{
     }
     
 }
+
+//cached pool service mein bhi kuch khaas nhi hai bas usme number of threads fixed nhi hoti ,
+// basically ek fixed number hoti hai and agar 60 seconds(configurable)
+// se zyada inactive hogi then that thread is killed
